@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root {
-  --primary-color: #5b21b6;
+  --primary-color: #f94144;
   --dark-gray: #9ca3af;
   --off-white: #f3f4f6;
 }
@@ -82,13 +82,18 @@ hr {
 
 .navigation .nav-pills {
   text-align: right;
+ 
 }
 
 
 .navigation .links {
   color: white;
+}
+.nav-links-space{
   padding: 0;
 }
+
+
 .navigation .link-active {
   font-weight: bold;
 }
@@ -96,8 +101,9 @@ hr {
 /** @header  **/
 
 .hero {
-  padding: 2rem;
+  /* padding: 1rem; */
   padding-top: 2rem;
+  /* background-color: red; */
 }
 
 .hero .hero-img {
@@ -167,7 +173,12 @@ hr {
 }
 
 @media (min-width:500px){
-  .navigation .links {
+
+  .nav-links-space{
     padding: 1rem;
   }
+  .hero{
+    padding: 2rem;
+  }
+  
 }
