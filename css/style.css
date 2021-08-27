@@ -102,7 +102,7 @@ hr {
 
 .hero {
   /* padding: 1rem; */
-  padding-top: 2rem;
+   padding-top: 2rem;
   /* background-color: red; */
 }
 
@@ -116,7 +116,7 @@ hr {
   padding-top: 1rem;
   color: var(--dark-gray);
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.1rem;
 
 }
 .hero .hero-heading .heading-inline {
