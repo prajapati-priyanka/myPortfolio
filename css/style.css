@@ -56,11 +56,17 @@ hr {
 /**  @lists  **/
 .list-non-bullet {
   list-style-type: none;
+ 
+  
+  
 }
 
 .list-item-inline {
+  /* background-color: aqua; */
   display: inline;
   padding: 0 0.5rem;
+  
+  
 }
 
 /** @nav  **/
@@ -78,8 +84,10 @@ hr {
   text-align: right;
 }
 
+
 .navigation .links {
   color: white;
+  padding: 0;
 }
 .navigation .link-active {
   font-weight: bold;
@@ -103,6 +111,7 @@ hr {
   color: var(--dark-gray);
   text-align: center;
   font-size: 2rem;
+
 }
 .hero .hero-heading .heading-inline {
   color: var(--primary-color);
@@ -155,4 +164,10 @@ hr {
 .blogs-list p{
   line-height: 1.6;
 
+}
+
+@media (min-width:500px){
+  .navigation .links {
+    padding: 1rem;
+  }
 }
