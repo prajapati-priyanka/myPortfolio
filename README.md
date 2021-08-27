@@ -1,3 +1,3 @@
 # My Portfolio
-This is my portfolio website to showcase my projects.
-This website is made with HTML and CSS.
+This is my portfolio website to showcase my projects and blogs.
+Made with HTML and CSS.
